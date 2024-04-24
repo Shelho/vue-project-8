@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<script>
+<script> 
 export default {
   data(){
     return{
@@ -32,6 +32,7 @@ export default {
         })
       const firebaseData = await response.json()
       console.log(firebaseData) 
+      this.name = ""
     }
   }
 }
