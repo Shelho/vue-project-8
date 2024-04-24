@@ -1,7 +1,7 @@
 <template>
   <div class="container" >
     <form class="card" @submit.prevent="createPerson">
-      <h2>Работа с базой данных</h2>
+      <h2>Работа с базой данных другой ветки </h2>
     
     <div class="form-control">
       <label for="name">введите имя</label>
